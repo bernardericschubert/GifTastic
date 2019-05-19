@@ -1,0 +1,46 @@
+<!-- HW6 GifTastic -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>GifTastic!</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Superhero Gifs. Yay!!</h1>
+            <p class="lead">Load up some gifs based on the options I've given, or add your own!</p>
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">Choose your hero</div>
+            <div class="card-body" id="hero-buttons"></div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">Add a hero</div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Enter Hero" id="hero-input">
+                    <button type="button" class="btn btn-secondary mt-3" id="submit-button">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">Gifs are fun!</div>
+            <div class="card-body" id="button-card">Choose hero above to return random images here</div>
+        </div>
+    </div>
+
+    <!-- Link JS file -->
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
