@@ -48,7 +48,7 @@ $(document).ready(function() {
                             "data-state": "still",
                             "data-animate": results[i].images.original.url});
                         gif.addClass("mb-3 mr-3 hero-img");
-                    $("#hero-display").append(gif);
+                    $("#hero-display").prepend(gif);
                 }
             });
     }
