@@ -2,7 +2,17 @@
 
 var apiKey = "&api_key=gxiyaUEkAbGhEQDAlA7YWdIKuSnWBhvD"
 var limit = 10;
-var heroes = ["Spider-Man", "Batman", "Captain America", "Iron Man", "Wonder Woman"];
+var heroes = [
+    "Spider-Man", 
+    "Batman", 
+    "Captain America", 
+    "Iron Man", 
+    "Wonder Woman",
+    "Thor",
+    "Superman",
+    "Hulk",
+    "Black Widow"
+];
 
 $(document).ready(function() {
 
